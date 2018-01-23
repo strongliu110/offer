@@ -18,14 +18,23 @@ def duplicate1(arr):
 
 # 利用哈希表，时间O(n)
 def duplicate2(arr):
+    dict = {}
+    for num in arr:
+        if num in dict:
+            print(num)
+            return True
+        else:
+            dict[num] = 1
+    return False
+
+def duplicate3(arr):
     for num in arr:
         if arr.count(num) > 1:  # 获取数目
             print(num)
             return True
     return False
 
-#
-def duplicate3(arr):
+def duplicate(arr):
     for index, num in enumerate(arr):
         if num != index:
             if num == arr[num]:
@@ -44,4 +53,7 @@ if __name__ == "__main__":
 
     arr3 = [2, 3, 1, 0, 2, 5, 3]
     print(duplicate3(arr3))
+
+    arr4 = [2, 3, 1, 0, 2, 5, 3]
+    print(duplicate(arr4))
 
