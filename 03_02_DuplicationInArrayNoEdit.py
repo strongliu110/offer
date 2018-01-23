@@ -13,7 +13,7 @@ def duplicate(arr):
     start = 1
     end = len(arr) - 1  # 获取长度
     while end >= start:
-        middle = ((end - start) >> 1) + start  # 若用除2，需要转成int，另外注意>>优先级
+        middle = ((end - start) >> 1) + start  # 若用/2，需要转成int。也可直接用//2，另外注意>>优先级
         count = countRange(arr, start, middle)
         if end == start:
             if count > 1:
