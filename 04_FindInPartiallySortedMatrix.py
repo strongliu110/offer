@@ -6,6 +6,12 @@
 """
 
 def find(matrix, number):
+    """
+    思路：从左下角或者右上角开始比较
+    :param matrix:
+    :param number:
+    :return:
+    """
     if not matrix:
         return False
 
