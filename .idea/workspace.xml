@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1447255c-abc8-4047-bcf2-7d952ab9dd5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Fibonacci.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10_Fibonacci.py" afterPath="$PROJECT_DIR$/10_Fibonacci.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,6 +18,7 @@
     <SUITE FILE_PATH="coverage/offer$array.coverage" NAME="array Coverage Results" MODIFIED="1516632478130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$03_02_DuplicationInArrayNoEdit.coverage" NAME="03_02_DuplicationInArrayNoEdit Coverage Results" MODIFIED="1516636122550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$10_Fibonacci.coverage" NAME="10_Fibonacci Coverage Results" MODIFIED="1516804494651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/offer$11_MinNumberInRotatedArray.coverage" NAME="11_MinNumberInRotatedArray Coverage Results" MODIFIED="1516808092929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$04_FindInPartiallySortedMatrix.coverage" NAME="04_FindInPartiallySortedMatrix Coverage Results" MODIFIED="1516717154681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$07_ConstructBinaryTree.coverage" NAME="07_ConstructBinaryTree Coverage Results" MODIFIED="1516800238695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$05_ReplaceSpaces.coverage" NAME="05_ReplaceSpaces Coverage Results" MODIFIED="1516718365799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -36,11 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10_Fibonacci.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="10_Fibonacci.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10_Fibonacci.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="284">
+              <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="11_MinNumberInRotatedArray.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11_MinNumberInRotatedArray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -87,6 +97,7 @@
         <option value="$PROJECT_DIR$/08_NextNodeInBinaryTrees.py" />
         <option value="$PROJECT_DIR$/09_QueueWithTwoStacks.py" />
         <option value="$PROJECT_DIR$/10_Fibonacci.py" />
+        <option value="$PROJECT_DIR$/11_MinNumberInRotatedArray.py" />
       </list>
     </option>
   </component>
@@ -154,26 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.10_Fibonacci">
-    <configuration default="false" name="05_ReplaceSpaces" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="offer" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_ReplaceSpaces.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.11_MinNumberInRotatedArray">
     <configuration default="false" name="06_PrintListInReversedOrder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,6 +237,25 @@
       <module name="offer" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_Fibonacci.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="11_MinNumberInRotatedArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="offer" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_MinNumberInRotatedArray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -400,19 +411,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.05_ReplaceSpaces" />
-      <item index="1" class="java.lang.String" itemvalue="Python.06_PrintListInReversedOrder" />
-      <item index="2" class="java.lang.String" itemvalue="Python.07_ConstructBinaryTree" />
-      <item index="3" class="java.lang.String" itemvalue="Python.09_QueueWithTwoStacks" />
-      <item index="4" class="java.lang.String" itemvalue="Python.10_Fibonacci" />
+      <item index="0" class="java.lang.String" itemvalue="Python.06_PrintListInReversedOrder" />
+      <item index="1" class="java.lang.String" itemvalue="Python.07_ConstructBinaryTree" />
+      <item index="2" class="java.lang.String" itemvalue="Python.09_QueueWithTwoStacks" />
+      <item index="3" class="java.lang.String" itemvalue="Python.10_Fibonacci" />
+      <item index="4" class="java.lang.String" itemvalue="Python.11_MinNumberInRotatedArray" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.10_Fibonacci" />
-        <item index="1" class="java.lang.String" itemvalue="Python.09_QueueWithTwoStacks" />
-        <item index="2" class="java.lang.String" itemvalue="Python.07_ConstructBinaryTree" />
-        <item index="3" class="java.lang.String" itemvalue="Python.06_PrintListInReversedOrder" />
-        <item index="4" class="java.lang.String" itemvalue="Python.05_ReplaceSpaces" />
+        <item index="0" class="java.lang.String" itemvalue="Python.11_MinNumberInRotatedArray" />
+        <item index="1" class="java.lang.String" itemvalue="Python.10_Fibonacci" />
+        <item index="2" class="java.lang.String" itemvalue="Python.09_QueueWithTwoStacks" />
+        <item index="3" class="java.lang.String" itemvalue="Python.07_ConstructBinaryTree" />
+        <item index="4" class="java.lang.String" itemvalue="Python.06_PrintListInReversedOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -437,7 +448,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21890146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -469,7 +480,7 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -566,8 +577,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/10_Fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="15" />
+        <state relative-caret-position="284">
+          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_MinNumberInRotatedArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
