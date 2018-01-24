@@ -4,8 +4,8 @@
 """
 
 class ListNode(object):
-    def __init__(self, key):
-        self.key = key
+    def __init__(self, data):
+        self.data = data
         self.next = None
 
 class Link(object):
@@ -33,13 +33,13 @@ def reverse(links):
 
     while stack:
         link = stack.pop()
-        print(link.key)
+        print(link.data)
 
 # 基于递归实现反转。递归本质就是栈结构，层次很深时存在栈溢出问题
 def reverse1(links):
     if links:
         reverse1(links.next)
-        print(links.key)
+        print(links.data)
 
 if __name__ == "__main__":
     array = [1, 2, 3, 4, 5]

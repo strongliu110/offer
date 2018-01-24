@@ -14,7 +14,7 @@ def duplicate(arr):
     end = len(arr) - 1  # 获取长度
     while end >= start:
         middle = ((end - start) >> 1) + start  # 若用/2，需要转成int。也可直接用//2，另外注意>>优先级
-        count = countRange(arr, start, middle)
+        count = count_range(arr, start, middle)
         if end == start:
             if count > 1:
                 return start
@@ -27,7 +27,7 @@ def duplicate(arr):
             start = middle + 1
     return -1
 
-def countRange(arr, start, end):
+def count_range(arr, start, end):
     count = 0
     for index, num in enumerate(arr):
         if (num >= start) and (num <= end):
