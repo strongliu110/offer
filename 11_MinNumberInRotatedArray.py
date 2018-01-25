@@ -5,6 +5,8 @@
 // {3, 4, 5, 1, 2}为{1, 2, 3, 4, 5}的一个旋转，该数组的最小值为1。
 """
 
+# 二分法查找，时间O(logn)。适合排序数组（或部分排序）中查找值或者统计值出现的次数
+
 def find_min(arr):
     if not arr:
         return None
@@ -23,7 +25,6 @@ def find_min(arr):
             left = mid
         if mid <= right:
             right = mid
-
     else:
         return arr[left]  # 当旋转后不变
 

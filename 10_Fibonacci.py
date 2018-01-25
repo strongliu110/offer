@@ -3,7 +3,7 @@
 // 题目：写一个函数，输入n，求斐波那契（Fibonacci）数列的第n项。
 """
 
-# 时间O(n)
+# 递归和循环，时间O(n)
 def fibonacci(n):
     if n < 2:
         return n
