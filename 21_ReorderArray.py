@@ -5,7 +5,7 @@
 """
 
 def reorder(arr, func):
-    # 双指针移动解决
+    # 使用两个指针，前后各一个，为了更好的扩展性，可以把判断奇偶部分抽取出来
     left = 0
     right = len(arr) - 1
     while left < right:

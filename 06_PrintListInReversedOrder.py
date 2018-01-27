@@ -15,8 +15,7 @@ class Link(object):
         if len(array) <= 0:
             return None
 
-        head = ListNode(0)
-
+        head = ListNode(0)  # 引入head简化
         move = head
         for num in array:
             node = ListNode(num)
