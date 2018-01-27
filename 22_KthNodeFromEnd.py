@@ -34,17 +34,21 @@ def find_last_kth(link, k):
     if not link or k <= 0:
         return None
 
-    move = link
-    while move and k - 1 >= 0:
-        move = link.next
+    fast = link
+    while fast and k - 1 >= 0:
+        fast = fast.next
         k -= 1
 
-    node = link
-    while move:
-        move = move.next
-        node = node.next
+    slow = link
+    while fast:
+        fast = fast.next
+        slow = slow.next
 
     # 防止节点数小于K
     if k != 0:
         return None
-    return node.val
+    return slow.val
+
+if __name__ == "__main__":
+    link = Link.link((1, 2, 3, 4, 5, 6, 7, 8, 9, 20, 22))
+    print(find_last_kth(link, 3))
