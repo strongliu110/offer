@@ -36,9 +36,9 @@ class Tree(object):
                 num += 1
 
 def symmetrical(tree):
-    return _symmetrical(tree, tree)
+    return __symmetrical(tree, tree)
 
-def _symmetrical(tree1, tree2):
+def __symmetrical(tree1, tree2):
     if not tree1 and not tree2:
         return True
     elif not tree1 or not tree2:
@@ -46,7 +46,7 @@ def _symmetrical(tree1, tree2):
     elif tree1.val != tree2.val:
         return False
 
-    return _symmetrical(tree1.left, tree2.right) and _symmetrical(tree1.right, tree2.left)
+    return __symmetrical(tree1.left, tree2.right) and __symmetrical(tree1.right, tree2.left)
 
 if __name__ == '__main__':
     tree = Tree()
