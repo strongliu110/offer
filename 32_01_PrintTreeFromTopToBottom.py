@@ -65,6 +65,6 @@ class Tree(object):
 
 if __name__ == '__main__':
     tree = Tree()
-    tree.construct_tree([8, 6, 10, 5, 7, 9, 11])
+    tree.construct_tree([1, 2, 3, 4, 5, 6, 7])
     print(tree.bfs())
     print(bfs(tree.root))

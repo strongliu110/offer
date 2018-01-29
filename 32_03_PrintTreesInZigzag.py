@@ -1,32 +1,41 @@
 """
-// 面试题32（二）：分行从上到下打印二叉树
-// 题目：从上到下按层打印二叉树，同一层的节点按从左到右的顺序打印，每一层
-// 打印到一行。
+// 面试题32（三）：之字形打印二叉树
+// 题目：请实现一个函数按照之字形顺序打印二叉树，即第一行按照从左到右的顺
+// 序打印，第二层按照从右到左的顺序打印，第三行再按照从左到右的顺序打印，
+// 其他行以此类推。
 """
 
 from collections import deque
 
-def bfs(tree):
+# 需要两个栈来实现
+def print_in_zigzag(tree):
     if not tree:
         return None
 
-    queue = deque([tree])
-    next_level = 0  # 下一层节点数
-    to_be_printed = 1  # 当前层未打印的节点数
-    while queue:
-        node = queue.popleft()
+    queue0 = [tree]
+    queue1 = []
+
+    current = 0
+    while queue0 or queue1:
+        if current == 0:
+            node = queue0.pop()  # 弹出末尾元素
+        else:
+            node = queue1.pop()
         print(node.val, end=" ")
-        to_be_printed -= 1
-        if node.left:
-            queue.append(node.left)
-            next_level += 1
-        if node.right:
-            queue.append(node.right)
-            next_level += 1
-        if to_be_printed == 0:
-            print("")
-            to_be_printed = next_level
-            next_level = 0
+
+        if current == 0:
+            if node.left:
+                queue1.append(node.left)
+            if node.right:
+                queue1.append(node.right)
+        else:
+            if node.right:
+                queue0.append(node.right)
+            if node.left:
+                queue0.append(node.left)
+
+        if (current == 0 and not queue0) or (current == 1 and not queue1):
+            current = 1 - current
 
 class TreeNode(object):
     def __init__(self, val):
@@ -60,4 +69,4 @@ class Tree(object):
 if __name__ == '__main__':
     tree = Tree()
     tree.construct_tree([1, 2, 3, 4, 5, 6, 7])
-    bfs(tree.root)
+    print_in_zigzag(tree.root)
