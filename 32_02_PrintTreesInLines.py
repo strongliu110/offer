@@ -1,25 +1,32 @@
 """
-// 面试题32（一）：不分行从上到下打印二叉树
-// 题目：从上到下打印出二叉树的每个节点，同一层的节点按从左到右的顺序打印
+// 面试题32（二）：分行从上到下打印二叉树
+// 题目：从上到下按层打印二叉树，同一层的节点按从左到右的顺序打印，每一层
+// 打印到一行。
 """
 
 from collections import deque
 
-# 广度优先遍历都要用到队列，因为队列是先进先出的
 def bfs(tree):
     if not tree:
         return None
 
     queue = deque([tree])
-    ret = []
+    next_level = 0  # 下一层节点数
+    to_be_printed = 1  # 当前层未打印的节点数
     while queue:
         node = queue.popleft()
-        ret.append(node.val)
+        print(node.val, end=" ")
+        to_be_printed -= 1
         if node.left:
             queue.append(node.left)
+            next_level += 1
         if node.right:
             queue.append(node.right)
-    return ret
+            next_level += 1
+        if to_be_printed == 0:
+            print("")
+            to_be_printed = next_level
+            next_level = 0
 
 class TreeNode(object):
     def __init__(self, val):
@@ -30,19 +37,6 @@ class TreeNode(object):
 class Tree(object):
     def __init__(self, root=None):
         self.root = root
-
-    def bfs(self):
-        """广度优先遍历(采用队列实现)"""
-        ret = []
-        queue = deque([self.root])  # 注意中括号
-        while queue:
-            node = queue.popleft()
-            if node:
-                ret.append(node.val)
-                queue.append(node.left)
-                queue.append(node.right)
-
-        return ret
 
     def construct_tree(self, values):
         if not values:
@@ -66,5 +60,4 @@ class Tree(object):
 if __name__ == '__main__':
     tree = Tree()
     tree.construct_tree([8, 6, 10, 5, 7, 9, 11])
-    print(tree.bfs())
-    print(bfs(tree.root))
+    bfs(tree.root)

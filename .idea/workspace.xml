@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1447255c-abc8-4047-bcf2-7d952ab9dd5e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/32_01_PrintTreeFromTopToBottom.py" afterPath="$PROJECT_DIR$/32_01_PrintTreeFromTopToBottom.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +17,7 @@
     <SUITE FILE_PATH="coverage/offer$31_StackPushPopOrder.coverage" NAME="31_StackPushPopOrder Coverage Results" MODIFIED="1517151387769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$06_PrintListInReversedOrder.coverage" NAME="06_PrintListInReversedOrder Coverage Results" MODIFIED="1516720806988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$25_MergeSortedLists.coverage" NAME="25_MergeSortedLists Coverage Results" MODIFIED="1517119685194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/offer$32_01_PrintTreeFromTopToBottom.coverage" NAME="32_01_PrintTreeFromTopToBottom Coverage Results" MODIFIED="1517230033856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/offer$32_01_PrintTreeFromTopToBottom.coverage" NAME="32_01_PrintTreeFromTopToBottom Coverage Results" MODIFIED="1517231663325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$21_ReorderArray.coverage" NAME="21_ReorderArray Coverage Results" MODIFIED="1516895943303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$03_01_DuplicationInArray.coverage" NAME="03_01_DuplicationInArray Coverage Results" MODIFIED="1516714954286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$16_Power.coverage" NAME="16_Power Coverage Results" MODIFIED="1516891085945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -29,6 +30,7 @@
     <SUITE FILE_PATH="coverage/offer$04_FindInPartiallySortedMatrix.coverage" NAME="04_FindInPartiallySortedMatrix Coverage Results" MODIFIED="1516717154681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$24_ReverseList.coverage" NAME="24_ReverseList Coverage Results" MODIFIED="1517117740538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$28_SymmetricalBinaryTree.coverage" NAME="28_SymmetricalBinaryTree Coverage Results" MODIFIED="1517144952545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/offer$32_02_PrintTreesInLines.coverage" NAME="32_02_PrintTreesInLines Coverage Results" MODIFIED="1517231792314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$18_01_DeleteNodeInList.coverage" NAME="18_01_DeleteNodeInList Coverage Results" MODIFIED="1516893836372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$array.coverage" NAME="array Coverage Results" MODIFIED="1516632478130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$03_02_DuplicationInArrayNoEdit.coverage" NAME="03_02_DuplicationInArrayNoEdit Coverage Results" MODIFIED="1516636122550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -43,21 +45,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="32_01_PrintTreeFromTopToBottom.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="32_01_PrintTreeFromTopToBottom.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/32_01_PrintTreeFromTopToBottom.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="27_MirrorOfBinaryTree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/27_MirrorOfBinaryTree.py">
+      <file leaf-file-name="32_02_PrintTreesInLines.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/32_02_PrintTreesInLines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="47" column="24" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="47" selection-end-column="24" />
+            <state relative-caret-position="491">
+              <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -118,6 +120,7 @@
         <option value="$PROJECT_DIR$/30_MinInStack.py" />
         <option value="$PROJECT_DIR$/31_StackPushPopOrder.py" />
         <option value="$PROJECT_DIR$/32_01_PrintTreeFromTopToBottom.py" />
+        <option value="$PROJECT_DIR$/32_02_PrintTreesInLines.py" />
       </list>
     </option>
   </component>
@@ -195,26 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.32_01_PrintTreeFromTopToBottom">
-    <configuration default="false" name="28_SymmetricalBinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="offer" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28_SymmetricalBinaryTree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.32_02_PrintTreesInLines">
     <configuration default="false" name="29_PrintMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,6 +270,25 @@
       <module name="offer" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32_01_PrintTreeFromTopToBottom.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="32_02_PrintTreesInLines" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="offer" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32_02_PrintTreesInLines.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -441,19 +444,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.28_SymmetricalBinaryTree" />
-      <item index="1" class="java.lang.String" itemvalue="Python.29_PrintMatrix" />
-      <item index="2" class="java.lang.String" itemvalue="Python.30_MinInStack" />
-      <item index="3" class="java.lang.String" itemvalue="Python.31_StackPushPopOrder" />
-      <item index="4" class="java.lang.String" itemvalue="Python.32_01_PrintTreeFromTopToBottom" />
+      <item index="0" class="java.lang.String" itemvalue="Python.29_PrintMatrix" />
+      <item index="1" class="java.lang.String" itemvalue="Python.30_MinInStack" />
+      <item index="2" class="java.lang.String" itemvalue="Python.31_StackPushPopOrder" />
+      <item index="3" class="java.lang.String" itemvalue="Python.32_01_PrintTreeFromTopToBottom" />
+      <item index="4" class="java.lang.String" itemvalue="Python.32_02_PrintTreesInLines" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.32_01_PrintTreeFromTopToBottom" />
-        <item index="1" class="java.lang.String" itemvalue="Python.31_StackPushPopOrder" />
-        <item index="2" class="java.lang.String" itemvalue="Python.30_MinInStack" />
-        <item index="3" class="java.lang.String" itemvalue="Python.29_PrintMatrix" />
-        <item index="4" class="java.lang.String" itemvalue="Python.28_SymmetricalBinaryTree" />
+        <item index="0" class="java.lang.String" itemvalue="Python.32_02_PrintTreesInLines" />
+        <item index="1" class="java.lang.String" itemvalue="Python.32_01_PrintTreeFromTopToBottom" />
+        <item index="2" class="java.lang.String" itemvalue="Python.31_StackPushPopOrder" />
+        <item index="3" class="java.lang.String" itemvalue="Python.30_MinInStack" />
+        <item index="4" class="java.lang.String" itemvalue="Python.29_PrintMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -644,6 +647,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -714,6 +718,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -721,6 +726,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -735,6 +741,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="48" column="28" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="48" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -742,6 +749,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -749,6 +757,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -756,6 +765,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -763,6 +773,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -800,16 +811,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/27_MirrorOfBinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="47" column="24" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="47" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/32_01_PrintTreeFromTopToBottom.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/32_02_PrintTreesInLines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
           <folding />
         </state>
       </provider>
