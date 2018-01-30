@@ -9,7 +9,26 @@
 import math
 
 # 动态规划
-# def maxProduct1(length):
+def maxProduct1(length):
+    if length < 2:
+        return 0
+    elif length == 2:
+        return 1
+    elif length == 3:
+        return 2
+
+    project = {0: 0, 1: 1, 2: 2, 3: 3}
+    for i in range(4, length + 1):
+        max = 0
+        for j in range(1, i // 2 + 1):
+            num = project[j] * project[i - j]
+            if max < num:
+                max = num
+
+            project[i] = max
+    max = project[length]
+    return max
+
 
 # 贪婪算法
 def maxProduct2(length):
@@ -31,5 +50,7 @@ def maxProduct2(length):
     return int(math.pow(3, timesOf3) * math.pow(2, timesOf2))  # 注意int()
 
 if __name__ == "__main__":
+    print(maxProduct1(5))
     print(maxProduct2(5))
+    print(maxProduct1(6))
     print(maxProduct2(6))
