@@ -7,7 +7,7 @@
 
 import random
 
-# 快速排序
+# 快速排序，时间O(nlogn)
 def quick_sort(data, left, right):
     if left > right:
         return data
@@ -80,8 +80,6 @@ def more_half_num2(numbers):
         if times[num] > (len(numbers) >> 1):
             return num
     return None
-
-
 
 if __name__ == '__main__':
     data1 = [6, 8, 1, 4, 3, 9, 5, 4, 11, 2, 2, 15, 6]
