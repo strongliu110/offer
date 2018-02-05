@@ -28,7 +28,7 @@ class Link(object):
             move = node
         return head.next
 
-# 使用快慢指针，快的先走k-1步，需要考虑控链表以及k为0
+# 使用快慢指针，快的先走k-1步，需要考虑空链表以及k为0
 def find_last_kth(link, k):
     # 注意鲁棒性
     if not link or k <= 0:
