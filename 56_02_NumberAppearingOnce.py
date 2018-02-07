@@ -4,6 +4,7 @@
 // 找出那个只出现一次的数字。
 """
 
+# 时间O(n)。若用排序后查找时间O(nlogn)，若用哈希记录次数空间O(n)
 def apperaring_once(nums):
     if not nums:
         return None
