@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1447255c-abc8-4047-bcf2-7d952ab9dd5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/62_LastNumberInCircle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/63_MaximalProfit.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,6 +29,7 @@
     <SUITE FILE_PATH="coverage/offer$53_01_NumberOfK.coverage" NAME="53_01_NumberOfK Coverage Results" MODIFIED="1517843601464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$27_MirrorOfBinaryTree.coverage" NAME="27_MirrorOfBinaryTree Coverage Results" MODIFIED="1517143653599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$58_02_LeftRotateString.coverage" NAME="58_02_LeftRotateString Coverage Results" MODIFIED="1518100764876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/offer$63_MaximalProfit.coverage" NAME="63_MaximalProfit Coverage Results" MODIFIED="1518251684924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$40_KLeastNumbers.coverage" NAME="40_KLeastNumbers Coverage Results" MODIFIED="1517669535899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$29_PrintMatrix.coverage" NAME="29_PrintMatrix Coverage Results" MODIFIED="1517146694425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer$04_FindInPartiallySortedMatrix.coverage" NAME="04_FindInPartiallySortedMatrix Coverage Results" MODIFIED="1516717154681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -83,11 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="62_LastNumberInCircle.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="62_LastNumberInCircle.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/62_LastNumberInCircle.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="63_MaximalProfit.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/63_MaximalProfit.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="19" />
+              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -119,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/25_MergeSortedLists.py" />
         <option value="$PROJECT_DIR$/26_SubstructureInTree.py" />
         <option value="$PROJECT_DIR$/27_MirrorOfBinaryTree.py" />
         <option value="$PROJECT_DIR$/28_SymmetricalBinaryTree.py" />
@@ -170,6 +180,7 @@
         <option value="$PROJECT_DIR$/60_DicesProbability.py" />
         <option value="$PROJECT_DIR$/61_ContinousCards.py" />
         <option value="$PROJECT_DIR$/62_LastNumberInCircle.py" />
+        <option value="$PROJECT_DIR$/63_MaximalProfit.py" />
       </list>
     </option>
   </component>
@@ -237,26 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.62_LastNumberInCircle">
-    <configuration default="false" name="58_01_ReverseWordsInSentence" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="offer" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/58_01_ReverseWordsInSentence.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.63_MaximalProfit">
     <configuration default="false" name="58_02_LeftRotateString" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,6 +320,25 @@
       <module name="offer" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/62_LastNumberInCircle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="63_MaximalProfit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="offer" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/63_MaximalProfit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -483,19 +494,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.58_01_ReverseWordsInSentence" />
-      <item index="1" class="java.lang.String" itemvalue="Python.58_02_LeftRotateString" />
-      <item index="2" class="java.lang.String" itemvalue="Python.60_DicesProbability" />
-      <item index="3" class="java.lang.String" itemvalue="Python.61_ContinousCards" />
-      <item index="4" class="java.lang.String" itemvalue="Python.62_LastNumberInCircle" />
+      <item index="0" class="java.lang.String" itemvalue="Python.58_02_LeftRotateString" />
+      <item index="1" class="java.lang.String" itemvalue="Python.60_DicesProbability" />
+      <item index="2" class="java.lang.String" itemvalue="Python.61_ContinousCards" />
+      <item index="3" class="java.lang.String" itemvalue="Python.62_LastNumberInCircle" />
+      <item index="4" class="java.lang.String" itemvalue="Python.63_MaximalProfit" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.62_LastNumberInCircle" />
-        <item index="1" class="java.lang.String" itemvalue="Python.61_ContinousCards" />
-        <item index="2" class="java.lang.String" itemvalue="Python.60_DicesProbability" />
-        <item index="3" class="java.lang.String" itemvalue="Python.58_02_LeftRotateString" />
-        <item index="4" class="java.lang.String" itemvalue="Python.58_01_ReverseWordsInSentence" />
+        <item index="0" class="java.lang.String" itemvalue="Python.63_MaximalProfit" />
+        <item index="1" class="java.lang.String" itemvalue="Python.62_LastNumberInCircle" />
+        <item index="2" class="java.lang.String" itemvalue="Python.61_ContinousCards" />
+        <item index="3" class="java.lang.String" itemvalue="Python.60_DicesProbability" />
+        <item index="4" class="java.lang.String" itemvalue="Python.58_02_LeftRotateString" />
       </list>
     </recent_temporary>
   </component>
@@ -557,13 +568,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/36_ConvertBinarySearchTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/37_SerializeBinaryTrees.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -911,8 +915,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/62_LastNumberInCircle.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/63_MaximalProfit.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="19" />
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
