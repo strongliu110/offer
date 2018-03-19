@@ -37,7 +37,7 @@ def quick_sort(data, left, right):
     return data
 
 
-# 分割为左小右大两部分，返回中指的索引
+# 分割为左小右大两部分，返回中值的索引
 def partition(data, left, right):
     base = data[left]
     while left < right:

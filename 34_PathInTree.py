@@ -6,7 +6,7 @@
 
 from collections import deque
 
-# 用前序遍历访问节点时，把节点添加到路径上，并累加节点值。直到为叶节点，且路径中节点值得和相等
+# 用前序遍历访问节点时，把节点添加到路径上，并累加节点值。直到为叶节点，且路径中节点值的和相等
 def find_path(tree, num):
     if not tree:
         return False

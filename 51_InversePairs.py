@@ -6,6 +6,7 @@
 
 import copy
 
+
 # 归并排序（分治）。时间O(nlogn)，空间O(n)
 def merge_sort(nums):
     if len(nums) <= 1:
@@ -14,6 +15,7 @@ def merge_sort(nums):
     left = merge_sort(nums[:num])  # 左边有序
     right = merge_sort(nums[num:])  # 右边有序
     return merge(left, right)  # 再将二个有序数列合并
+
 
 def merge(left, right):
     l, r = 0, 0

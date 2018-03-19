@@ -13,6 +13,7 @@ def only_once_number(nums):
     for num in nums:  # 获取两个值的异或结果
         tmp ^= num
 
+    print(tmp)
     index = first_bit1(tmp)  # 为1的某位
     ret1, ret2 = 0, 0
     for num in nums:

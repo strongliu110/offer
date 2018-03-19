@@ -9,9 +9,9 @@ def reorder(arr, func):
     left = 0
     right = len(arr) - 1
     while left < right:
-        while not func(arr[left]):
+        while left < right and not func(arr[left]):
             left += 1
-        while func(arr[right]):
+        while left < right and func(arr[right]):
             right -= 1
 
         if left < right:
